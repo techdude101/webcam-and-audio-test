@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js" defer></script>
+  <title>Webcam and Audio Test</title>
+</head>
+<body>
+  <div>
+    <video id="webcam_video" name="webcam_video" autoplay muted controls></video>
+      </div>
+      <canvas id="mic_canvas" name="mic_canvas"></canvas>
+    
+    <div><p><input id="panControl" class="pan" type="range" min="-1" max="1" value="0" step="0.01" /></p></div>
+    <div id="speaker-text">
+      <div id="speaker-text-left"><button id="left_button">L</button></div>
+      <div id="speaker-text-centre"><p>Speaker Test - Play Tone</p></div><div id="speaker-text-right"><button id="right_button">R</button></div>
+    </div>
+</body>
+</html>
